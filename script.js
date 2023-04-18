@@ -22,4 +22,18 @@ document.write("The value of b is :" +b);
 document.write("<br>");
 document.write("This value of c is :" +c);
 // const has block scope
+document.write("<br>");
 
+
+class testbook {
+    constructor (g){
+        this.Charactor = g
+    }
+}
+class skill_academy {
+    disp() {
+        console.log("I have a Ford, it is a Mustang :" + this.Charactor);
+    }
+}
+var obj = new skill_academy();
+obj.disp()
