@@ -4,7 +4,7 @@ var addFriend = document.querySelector("#add")
 var removeFriend = document.querySelector("#remove")
 
 addFriend.addEventListener("click",function(){
-    istatus.innerHTML = "Kirti 18th Sep"
+    istatus.innerHTML = "Ruchi 28th Sep"
     istatus.style.color = "green"
 })
 
